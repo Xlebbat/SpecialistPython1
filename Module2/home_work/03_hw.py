@@ -31,3 +31,14 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+# TODO: your code here
+cost=float(input("Ввести стоимость товара?"))
+n=20
+for i in range(1, n+1):
+    print(i, round(cost*i,2), "Rub")
+
+# или второй вариант
+#i=0
+#while i <=n:
+#    i=i+1
+#    print(i,round(cost*i,2), "Rub")
